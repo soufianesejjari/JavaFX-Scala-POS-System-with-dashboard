@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1227.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.produit.ProduitTraitement">
+    <children>
+        <VBox prefHeight="730.0" prefWidth="1227.0">
+            <children>
+                <HBox prefHeight="247.0" prefWidth="1227.0">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="293.0" text="Gestion des Produits " textAlignment="CENTER" textFill="#4d47fc" textOverrun="WORD_ELLIPSIS">
+                            <HBox.margin>
+                                <Insets right="500.0" />
+                            </HBox.margin>
+                        </Label>
+                        <Button fx:id="addCaissierButton" mnemonicParsing="false" text="Ajoute un Produit">
+                            <HBox.margin>
+                                <Insets left="200.0" top="160.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children></HBox>
+                <TableView fx:id="tableCaissier" prefHeight="411.0" prefWidth="1227.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="C1" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

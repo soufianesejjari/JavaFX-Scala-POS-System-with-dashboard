@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1227.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.orders.CommandeTraitement">
+    <children>
+        <VBox prefHeight="730.0" prefWidth="1227.0">
+            <children>
+                <HBox prefHeight="247.0" prefWidth="1227.0">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="293.0" text="Gestion de Commandes " textAlignment="CENTER" textFill="#4d47fc" textOverrun="WORD_ELLIPSIS">
+                            <HBox.margin>
+                                <Insets right="500.0" />
+                            </HBox.margin>
+                        </Label>
+                        <Button fx:id="addCaissierButton" visible="false" mnemonicParsing="false" text="Ajoute un caissier">
+                            <HBox.margin>
+                                <Insets left="280.0" top="160.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children></HBox>
+                <TableView fx:id="tableCaissier" prefHeight="411.0" prefWidth="1227.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="C1" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

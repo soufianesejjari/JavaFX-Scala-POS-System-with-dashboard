@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FistPage">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="400.0" fitWidth="600.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image fx:id="image" url="@img/bgMain.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonAdmin" layoutX="341.0" layoutY="141.0" mnemonicParsing="false"  prefHeight="190.0" prefWidth="159.0" rotate="1.5" style="-fx-region-background: 33;" styleClass="-fx-cursor: hand;" AnchorPane.leftAnchor="341.0" />
+      <Button fx:id="buttonCaissier" layoutX="121.0" layoutY="108.0" mnemonicParsing="false"  prefHeight="217.0" prefWidth="159.0" style="-fx-region-background: 33;" />
+   </children>
+</AnchorPane>
