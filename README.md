@@ -27,10 +27,13 @@ This is a JavaFX/Scala based Point of Sale system that allows users to view and 
 - MySQL 5.7 or later
 
 ## Installation
--Mysql database
-- Clone the repository: `git clone https://github.com/soufianesejjari/JavaFX-Scala-POS-System.git`
+- Mysql database
+- Clone the repository: `git clone https://github.com/soufianesejjari/ScalaProjet.git`
 - Build the project: `sbt assembly`
 - Run the application: `java -jar target/scala-2.12/JavaFX-Scala-POS-System.jar`
+-- OR
+- install https://github.com/soufianesejjari/ScalaProjet/blob/main/application/SYMA_Market.exe
+
 
 ## Usage
 - Run the application and log in as either a cashier or an admin login(soufiane,pass)
